@@ -23,3 +23,21 @@ Git fue creado pensando en la eficiencia y la confiabilidad del mantenimiento de
 - Gestión eficiente de proyectos grandes.
 
 - Realmacenamiento periódico en paquetes.
+
+## Comandos de configuracion
+
+### `Git config`
+El comando git config sirve para definir valores de configuración de Git a nivel de un proyecto global o local. Estos niveles de configuración se corresponden con archivos de texto con extensión .gitconfig.
+
+> **Ejemplo**
+>
+> `git config --global user.email "email@addres.com"`
+>
+> `git config --global user.name "Fulano de Tal"`
+
+### `Git init`
+Este comando inicializa un nuevo repositorio en el repositorio local.
+
+### `Git clone`
+Este comando inicializa un nuevo repositorio en el repositorio local clonando íntegramente el contenido de un repositorio remoto que le indiquemos mediante una URL.
+
